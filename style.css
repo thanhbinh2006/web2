@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+    overflow: hidden;
+}
+
+#list_img {
+    display: inline-flex;
+    transition: all 2s;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+}
